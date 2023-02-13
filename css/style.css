@@ -1,0 +1,157 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --lightblue: #B4D0E7;
+    --bg-bottoni: #0061ff;
+    --lightgrey: #f5f5f5;
+    --greenlogo: #A2D39B;
+    --lightbluelogo: #0093CE;
+    --redlogo: #ff1c1c;
+    --redlogo2: #d5001f;
+    --bluelogo: #0d2481;
+    --yellowlogo: #ffd830;
+    --logo: #61082b;
+
+}
+
+.bordo {
+    border: 1px solid black;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.container-small {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+}
+ html {
+    scroll-behavior: smooth;
+ }
+
+ header {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    top: 0;
+
+    background-color: var(--white);
+    z-index: 1000;
+   
+}
+
+
+ body {
+    background-color: var(--white);
+
+ }
+
+ main {
+    padding-top: 60px;
+    font-family: 'Open Sans', sans-serif;
+ }
+
+ #hero {
+    background-color: var(--lightblue);
+
+ }
+
+ h1 {
+    font-size: 4rem;
+    
+    padding:50px;
+    
+ }
+
+.start {
+    text-align: center;
+}
+
+ .mb-100 {
+    margin-bottom: 100%;
+ }
+
+ .mt-10 {
+    margin-top: 30px;
+ }
+
+ .pad-p1 {
+    
+    padding-right: 20%;
+    }
+.pad-p2 {
+    padding-left: 10%;
+    padding-right: 20%;
+
+}
+
+.bottone2 {
+    border: 1px solid black;
+    padding:  10px 20px;
+}
+
+ .arrow {
+    margin-top: 90px;
+    font-size: 3rem;
+ }
+
+.d-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.space-beetween {
+    justify-content: space-between;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.align-center {
+    align-items: center;
+}
+
+
+img {
+    width: 100%;
+    
+}
+
+.flex-start {
+    display: flex;
+    justify-content: flex-start;
+ }
+
+.sec-1 {
+    padding-left: 60px;
+}
+    
+
+
+
+li{
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+
+}
+a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.bottone {
+    background-color: var(--bg-bottoni);
+    color: white;
+    padding: 5px 10px;
+}
