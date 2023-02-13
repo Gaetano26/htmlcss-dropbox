@@ -139,7 +139,7 @@ img {
 
 
 
-li{
+.li1{
     list-style: none;
     text-align: center;
     padding: 20px;
@@ -155,3 +155,22 @@ a {
     color: white;
     padding: 5px 10px;
 }
+
+li {
+    list-style: none;
+    padding-top: 15px;
+}
+ .white {
+    color: white;
+ }
+ 
+footer {
+    background-color: var(--black);
+}
+
+h3 {
+    padding-top: 50px;
+}
+ .ul-f {
+    padding-top: 20px;
+ }
