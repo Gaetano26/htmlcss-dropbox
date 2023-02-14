@@ -84,6 +84,10 @@
     margin-bottom: 100px;
  }
 
+.mb-20 {
+    margin-bottom: 20px;
+}
+
  .mt-10{
     margin-top: 10px;
  }
@@ -180,6 +184,14 @@ img {
     width: 100%;
     display: block;
 }
+.img2 {
+    padding: 80px 50px;
+    display: block;
+    
+    
+}
+
+
 
 .flex-start {
     display: flex;
@@ -243,3 +255,54 @@ h3 {
 .calc {
     width: calc(100% / 3);
 }
+
+.calc2 {
+    height: calc(100vw / 3);
+}
+
+.calc3 {
+    width: calc(100% / 2);
+    height: calc(33.3vw / 2);
+    
+}
+
+.dimensione {
+    font-size: 2rem;
+    padding-right: 40%;
+}
+
+.red {
+    background-color: var(--redlogo);
+    color: white;
+}
+
+.red2 {
+    background-color: var(--redlogo2);
+    color: white;
+}
+
+.yellow {
+    background-color: var(--yellowlogo);
+    color: white;
+}
+
+.black {
+    background-color: var(--logo);
+}
+
+.green {
+    background-color: var(--greenlogo);
+}
+
+.light-blue {
+    background-color: var(--lightbluelogo);
+}
+
+.blue {
+    background-color: var(--bluelogo);
+}
+
+.viola {
+    background-color: var(--lightblue);
+}
+
