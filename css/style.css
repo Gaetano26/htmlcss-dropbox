@@ -54,6 +54,17 @@
     padding: 20px;
 }
 
+.li2 {
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.li1:hover {
+    border-bottom: 1px solid black;
+}
+
  body {
     background-color: var(--white);
 
@@ -106,7 +117,7 @@
 
 .pad-p1 {
     
-    padding-right: 20%;
+    padding-right: 15%;
  }
 
 .pad-p2 {
@@ -145,9 +156,10 @@ h4{
     padding:  10px 20px;
 }
 
+
  .arrow {
-    margin-top: 90px;
-    font-size: 3rem;
+    margin-top: 30px;
+    font-size: 2.5rem;
  }
 
 .d-flex {
@@ -196,7 +208,10 @@ img {
     display: block;
  }
 
-
+.position {
+    position: relative;
+    bottom: -65px;
+}
 
 .flex-start {
     display: flex;
@@ -217,12 +232,15 @@ img {
     background-color: var(--bg-bottoni);
     color: white;
     padding: 5px 10px;
+    transition: background-color 0.5s;
 }
+
 
 .li-f {
     list-style: none;
     padding-top: 15px;
 }
+
 
 .li-piani {
     list-style: none;
@@ -283,37 +301,83 @@ h3 {
 .red {
     background-color: var(--redlogo);
     color: white;
+    transition: background-color 0.5s;
 }
+
+.red:hover {
+    background-color: var(--redlogo2);   
+}
+
+    
+
+
 
 .red2 {
     background-color: var(--redlogo2);
     color: white;
+    transition: background-color 0.5s;
+    
+}
+.red2:hover {
+   background-color: var(--redlogo);
+   
 }
 
 .yellow {
     background-color: var(--yellowlogo);
     color: white;
+    transition: background-color 0.5s;
+}
+
+.yellow:hover {
+    background-color: var(--bluelogo);  
 }
 
 .black {
     background-color: var(--logo);
+    transition: background-color 0.5s;
+}
+
+.black:hover {
+    background-color: var(--yellowlogo);
+
+}
+
+.bottone:hover {
+    background-color: blue;
+    
 }
 
 .green {
     background-color: var(--greenlogo);
+    transition: background-color 0.5s;
+}
+.green:hover {
+    background-color: var(--lightbluelogo);
 }
 
 .light-blue {
     background-color: var(--lightbluelogo);
+    transition: background-color 0.5s;
+}
+.light-blue:hover {
+    background-color: var(--black);
 }
 
 .blue {
     background-color: var(--bluelogo);
+    transition: background-color 0.5s;
 }
 
+.blue:hover {
+    background-color: var(--logo);
+}
 .viola {
     background-color: var(--lightblue);
+
 }
+
+
 
 .chiaro {
     background-color: white;
@@ -340,4 +404,17 @@ h3 {
 }
 .bold {
     font-weight: bold;
+}
+
+.overflow {
+    overflow-y: hidden;
+}
+
+select {
+    border: none;
+}
+
+.mt-100 {
+    margin-top: 100px;
+    
 }
