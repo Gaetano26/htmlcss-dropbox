@@ -257,69 +257,87 @@ img {
     transition: background-color 0.5s;
 }
 
-
+/*modifica padding top e stile della lista del footer*/
 .li-f {
     list-style: none;
     padding-top: 15px;
 }
 
-
+/*modifica stile e text-align lista sezione piano business*/
 .li-piani {
+
     list-style: none;
     text-align:start;
 }
+
+/*modifica colore testo bianco*/
  .white {
     color: white;
  }
  
+
+ /*modifica colorazione sfondo footer*/
 footer {
     background-color: var(--black);
 }
 
+/*modifica padding degli h3 nel footer*/
 h3 {
     padding-top: 50px;
 }
+
+/*modifica padding lista footer*/
  .ul-f {
     padding-top: 20px;
  }
 
+ /*modifica padding top checkbox nella seziona piano business*/
  .radio {
   padding-top: 45px;
  }
 
+ /*modifica margin-left per aumentare la distanzatra le 2 checkbox*/
  .r {
      margin-left: 30px;
  }
  
+ /*modifica larghezza dei 3 contenitori nella sezione piano business*/
  .piano {
     max-width: 30%;
  
 
 }
 
+/*creazione dei contenitori che contengono le card nella sezione esegui operazioni e dei loghi nella sezione successiva*/
 .calc {
     width: calc(100% / 3);
 }
 
+/*imposta altezza precisa dei contenitori nella sezione team*/
 .calc2 {
     height: calc(100vw / 3);
 }
 
+/*creazione riquadri contenenti i loghi nella sezione team (parte sinistra)*/
 .calc3 {
     width: calc(100% / 2);
     height: calc(33.3vw / 2);
 }
+
+/*creazione riquadri contenenti i loghi nella sezione team (parte destra)*/
  .calc4 {
     width: calc(100% / 2);
     height: calc(28vw / 2);
 
  }
 
+ /*modifica dimensione h2 sezione team*/
 .dimensione {
     font-size: 2rem;
     padding-right: 40%;
 }
 
+/*colori sfondi di tutti i loghi sezione team + rispettivi hover che cambiano il colore di sfondo al passaggio del cursore*/
 .red {
     background-color: var(--redlogo);
     color: white;
@@ -400,43 +418,56 @@ h3 {
 }
 
 
-
-.chiaro {
-    background-color: white;
-}
-
+/* modifica colore loghi sezione team + selector e paragrafo end footer*/
 .invert {
     filter: invert(1);
 
 }
 
+/*modifica dimensione e posizione testo nel contenitore centrale della sezione team accanto ai loghi*/
 .size {
     font-size: 13px;
     padding-left: 27px;
     padding-right: 27px;
 }
 
+/*padding destro h2 sezione start trial*/
 #trial {
     padding-right: 30%;
 }
 
+/*creazione bordo top visibile piu paddin per distanziare il testo sotto*/
 .border-top {
     border-top: 1px solid black;
     padding-top: 20px;
 }
+
+/*modifica spessore ad alcune sezioni di testo*/
 .bold {
     font-weight: bold;
 }
 
+/*overflow hidden*/
 .overflow {
     overflow-y: hidden;
 }
 
+/*rimozione bordi delle select*/
 select {
     border: none;
 }
 
+/*margine top per distanziare le 2 parti del footer*/
 .mt-100 {
     margin-top: 100px;
     
+}
+
+/*sfondo bianco bottone 2*/
+.chiaro{
+    background-color: white;
+}
+
+.bordo-b {
+    border-bottom: 1px solid black;
 }
