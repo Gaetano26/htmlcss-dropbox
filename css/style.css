@@ -1,8 +1,11 @@
+/*regole generali*/
 * {
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
 }
+
+/*root di tutti i colori utilizzati*/
 :root {
     --white: #ffffff;
     --black: #000000;
@@ -23,21 +26,26 @@
     border: 1px solid black;
 }
 
+/*creazione conteiner da 1200px sezione titolo e footer*/
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 10px;
 }
 
+/*creazione container 1000px per il main*/
 .container-small {
     max-width: 1000px;
     margin: 0 auto;
     padding: 10px;
 }
+
+/*regolazione scroll piu fluido*/
  html {
     scroll-behavior: smooth;
  }
 
+ /*creazione e modiche header per la creazione della nav bar*/
  header {
     position: fixed;
     width: 100%;
@@ -48,12 +56,14 @@
     z-index: 1000;
 }
 
+/* modifiche li lista nav bar*/
 .li1{
     list-style: none;
     text-align: center;
     padding: 20px;
 }
 
+/*modifica di 2 li nella lista nav bar*/
 .li2 {
     list-style: none;
     text-align: center;
@@ -61,25 +71,30 @@
 
 }
 
+/*hover lista nav bar per far comparire il bordo inferiore*/
 .li1:hover {
     border-bottom: 1px solid black;
 }
 
+/*colorazione sfondo body*/
  body {
     background-color: var(--white);
 
  }
 
+/*modifica posizionamenti e carattere del testo contenuto nel main*/
  main {
     padding-top: 60px;
     font-family: 'Open Sans', sans-serif;
  }
 
+ /*colorazione sfondo hero*/
  .hero {
     background-color: var(--lightblue);
 
  }
 
+/*modifica posizionamento e carattere del titolo*/
  h1 {
     font-size: 4rem;
     
@@ -87,114 +102,118 @@
     
  }
 
-.start {
-    text-align: center;
-}
-
+ /*modifica margin top select footer */
  .mb-100 {
     margin-bottom: 100px;
  }
 
+/*modifica margin top sezioni e paragrafi main*/
 .mb-20 {
     margin-bottom: 20px;
 }
 
+/*modifica margin top sezioni e paragrafi main*/
  .mt-10{
     margin-top: 10px;
  }
 
+ /*modifica margin top sezioni e paragrafi main e footer*/
  .mt-35 {
     margin-top:35px;
  }
 
- 
+ /*modifica margin top sezioni e paragrafi main e footer*/
 .mt-50 {
     margin-top: 50px;
 }
 
 
  
-
+/*modifica padding sinisto porzioni di testo del documento*/
 .pad-p1 {
     
     padding-right: 15%;
  }
 
+ /*modifica padding sinisto e destro porzioni di testo del documento*/
 .pad-p2 {
     padding-left: 10%;
     padding-right: 20%;
 
 }
 
+/*modifica padding sinisto bottom e margin top porzioni di testo o sezioni documento*/
 .pad-p3 {
     padding-left: 30px;
     margin-bottom: 10px;
     margin-top: 20px;
 }
 
+/*modifica padding destro bottom e margin top porzioni di testo o sezioni documento*/
 .pad-p4 {
     padding-right: 30px;
     margin-bottom: 10px;
     margin-top: 10px;
 }
 
+/*modifica padding di testo o sezioni documento*/
 .pad-p5 {
     padding: 100px 60px;
     
 }
 
+/*modifica dimensioni testo di tutti gli h4 presenti nel documento*/
 h4{
     font-size: 25px;
 }
 
+/*modifica colore check presenti nella sezione piano business*/
 .check {
     color: var(--bg-bottoni);
 }
 
+/*modifica padding e creazione bordo dei bottoni "trova partner" e "inizia la tua prova gratuita"*/
 .bottone2 {
     border: 1px solid black;
     padding:  10px 20px;
 }
 
-
+/*modifica grandezza e margin arrow nella sezione Titolo Principale*/
  .arrow {
     margin-top: 30px;
     font-size: 2.5rem;
  }
 
+/*flex sezioni del documento*/
 .d-flex {
     display: flex;
     flex-direction: row;
 }
 
 
-
+/*modifica space-between sezioni del documento*/
 .space-beetween {
     justify-content: space-between;
 }
 
+/*wrap di sezioni del comumento*/
 .wrap {
     flex-wrap: wrap;
 }
 
-.align-center {
-    align-items: center;
-}
-
-.align-center2 {
-    align-content: center;
-}
-
+/*modifica justify-center sezioni del documento*/
 .justify-center {
     justify-content: center;
     padding: 10px;
     
 }
 
+/*modifica padding sinistro di paragrafi presenti nel documento*/
 .p-piani {
     padding-left: 6px;
 }
 
+/*modifica dimensioni e padding e display block immagini*/
 img {
     width: 100%;
     display: block;
@@ -208,11 +227,13 @@ img {
     display: block;
  }
 
+ /*modifica position relative immagine nella sezione titolo principale*/
 .position {
     position: relative;
     bottom: -65px;
 }
 
+/*flex start sezioni del documento*/
 .flex-start {
     display: flex;
     justify-content: flex-start;
@@ -222,12 +243,13 @@ img {
     padding-left: 60px;
 }
     
-
+/*annullamento text decoration links + cambio colore del testo*/
 .a-none {
     text-decoration: none;
     color: var(--black);
 }
 
+/*modifiche e creazione bottoni blu*/
 .bottone {
     background-color: var(--bg-bottoni);
     color: white;
